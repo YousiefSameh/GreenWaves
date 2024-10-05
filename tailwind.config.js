@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/*.{js,jsx,ts,tsx}",
     "./src/Components/Pages/*.{js,jsx,ts,tsx}",
+    "./src/Components/Pages/Register/*.{js,jsx,ts,tsx}",
     "./src/Components/UI/*.{js,jsx,ts,tsx}",
   ],
   theme: {

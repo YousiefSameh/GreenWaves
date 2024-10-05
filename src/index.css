@@ -6,3 +6,15 @@
 html {
   font-family: "Noto Sans Arabic", sans-serif;
 }
+
+@layer base {
+  .circle {
+    @apply block w-[32px] h-[32px] rounded-full border-[3px] border-primary
+  }
+  .line {
+    @apply block w-[70px] md:w-[140px] h-[4px] bg-primary
+  }
+  .form-radio {
+    @apply appearance-none rounded-full w-4 h-4 border border-primary bg-white checked:bg-primary checked:border-primary focus:outline-none transition duration-300 cursor-pointer;
+  }
+}
