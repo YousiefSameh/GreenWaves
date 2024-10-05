@@ -5,6 +5,7 @@ import ForgetPassword from "./Components/Pages/ForgetPassword";
 import Name from "./Components/Pages/Register/Name";
 import Born from "./Components/Pages/Register/Born";
 import Posts from "./Components/Pages/Posts";
+import Email from "./Components/Pages/Register/Email";
 
 const App = () => {
 	return (
@@ -12,10 +13,11 @@ const App = () => {
 			<Routes>
 				<Route path="/" element={<Welcome />} />
 				<Route path="/login" element={<Login />} />
+				<Route path="/forget_password" element={<ForgetPassword />} />
 				<Route path="/register/name" element={<Name />} />
 				<Route path="/register/born" element={<Born />} />
+				<Route path="/register/email" element={<Email />} />
 				<Route path="/posts" element={<Posts />} />
-				<Route path="/forget_password" element={<ForgetPassword />} />
 			</Routes>
 		</Router>
 	);

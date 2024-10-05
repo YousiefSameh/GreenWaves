@@ -50,7 +50,7 @@ const Born = () => {
 						</div>
 					</div>
 					<Button type={"submit"} width={"w-[90%] md:w-[505px]"}>
-						<Link to="/register/born">التالي</Link>
+						<Link to="/register/email">التالي</Link>
 					</Button>
 				</form>
 			</div>

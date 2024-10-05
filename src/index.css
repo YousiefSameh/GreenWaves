@@ -9,7 +9,7 @@ html {
 
 @layer base {
   .circle {
-    @apply block w-[32px] h-[32px] rounded-full border-[3px] border-primary
+    @apply block w-[32px] h-[32px] rounded-full border-[4px] border-primary
   }
   .line {
     @apply block w-[70px] md:w-[140px] h-[4px] bg-primary
