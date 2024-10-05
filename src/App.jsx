@@ -4,8 +4,9 @@ import Login from "./Components/Pages/Login";
 import ForgetPassword from "./Components/Pages/ForgetPassword";
 import Name from "./Components/Pages/Register/Name";
 import Born from "./Components/Pages/Register/Born";
-import Posts from "./Components/Pages/Posts";
 import Email from "./Components/Pages/Register/Email";
+import Password from "./Components/Pages/Register/Password";
+import Posts from "./Components/Pages/Posts";
 
 const App = () => {
 	return (
@@ -17,6 +18,7 @@ const App = () => {
 				<Route path="/register/name" element={<Name />} />
 				<Route path="/register/born" element={<Born />} />
 				<Route path="/register/email" element={<Email />} />
+				<Route path="/register/password" element={<Password />} />
 				<Route path="/posts" element={<Posts />} />
 			</Routes>
 		</Router>

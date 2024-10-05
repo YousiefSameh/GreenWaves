@@ -8,7 +8,7 @@ const Welcome = () => {
         <h1 className="text-5xl font-bold mt-6 text-bodyColor">مرحبا بك في <br /> <p className="pt-5">GreenWaves</p></h1>
         <div className="btns mt-10 gap-12 flex items-center">
           <Button width={"w-fit"}>
-            <Link to="/register">أنشاء حساب</Link>
+            <Link to="/register/name">أنشاء حساب</Link>
           </Button>
           <Button width={"w-fit"}>
             <Link to="/login">تسجيل الدخول</Link>
