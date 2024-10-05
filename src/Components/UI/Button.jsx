@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
-const Button = ({children, width}) => {
+const Button = ({children, width, type}) => {
   return (
-    <button className={`px-7 py-4 text-xl font-bold text-center rounded-[10px] transition-all bg-secondary hover:bg-primary text-white ${width}`}>
+    <button type={type} className={`px-7 py-4 text-xl font-bold text-center rounded-[10px] transition-all bg-secondary hover:bg-primary text-white ${width}`}>
       {children}
     </button>
   )
