@@ -11,7 +11,7 @@ const Header = () => {
             <Link to="/activties" className="text-lg font-bold transition-all hover:text-primary">الفعاليات</Link>
           </nav>
         </div>
-        <Link className="border border-[#aaa] w-[48px] h-[48px] rounded-full flex items-center justify-center"><i className="fa-solid fa-user-tie fa-xl"></i></Link>
+        <Link to="/Profile" className="border border-[#aaa] w-[48px] h-[48px] rounded-full flex items-center justify-center"><i className="fa-solid fa-user-tie fa-xl"></i></Link>
       </div>
     </header>
   )
