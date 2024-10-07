@@ -23,7 +23,7 @@ const Profile = () => {
                     </div>
                     {/* End Profile */}
                     {/* Start Posts */}
-                    <div className="posts w-full flex flex-col gap-12 py-20">
+                    <div className="posts w-full flex flex-col gap-12 py-10">
 					<div className="post bg-white shadow-xl rounded-xl p-4 md:p-12 w-[90%] md:w-[1050px] mx-auto">
 						<div className="top-side flex items-center justify-between">
 							<div className="profile flex items-center gap-4">
