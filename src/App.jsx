@@ -7,6 +7,7 @@ import Born from "./Components/Pages/Register/Born";
 import Email from "./Components/Pages/Register/Email";
 import Password from "./Components/Pages/Register/Password";
 import Posts from "./Components/Pages/Posts";
+import Profile from "./Components/Pages/Profile";
 
 const App = () => {
 	return (
@@ -20,6 +21,7 @@ const App = () => {
 				<Route path="/register/email" element={<Email />} />
 				<Route path="/register/password" element={<Password />} />
 				<Route path="/posts" element={<Posts />} />
+				<Route path="/Profile" element={<Profile />} />
 			</Routes>
 		</Router>
 	);
