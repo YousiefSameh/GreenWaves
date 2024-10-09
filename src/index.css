@@ -19,6 +19,16 @@ html {
   background: #32CD32;
 }
 
+.act {
+  height: 30rem;
+}
+
+.img-act {
+  margin-right: 395px;
+  height: 30rem;
+}
+
+
 @layer base {
   .circle {
     @apply block w-[32px] h-[32px] rounded-full border-[4px] border-primary
