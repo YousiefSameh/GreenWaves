@@ -8,6 +8,7 @@ import Email from "./Components/Pages/Register/Email";
 import Password from "./Components/Pages/Register/Password";
 import Posts from "./Components/Pages/Posts";
 import Profile from "./Components/Pages/Profile";
+import Activties from "./Components/Pages/Activties";
 
 const App = () => {
 	return (
@@ -22,6 +23,7 @@ const App = () => {
 				<Route path="/register/password" element={<Password />} />
 				<Route path="/posts" element={<Posts />} />
 				<Route path="/Profile" element={<Profile />} />
+				<Route path="/Activties" element={<Activties />} />
 			</Routes>
 		</Router>
 	);
