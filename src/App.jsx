@@ -9,6 +9,7 @@ import Password from "./Components/Pages/Register/Password";
 import Posts from "./Components/Pages/Posts";
 import Profile from "./Components/Pages/Profile";
 import Activties from "./Components/Pages/Activties";
+import Sittings from "./Components/Pages/Sittings";
 
 const App = () => {
 	return (
@@ -24,6 +25,7 @@ const App = () => {
 				<Route path="/posts" element={<Posts />} />
 				<Route path="/Profile" element={<Profile />} />
 				<Route path="/Activties" element={<Activties />} />
+				<Route path="/Sittings" element={<Sittings />} />
 			</Routes>
 		</Router>
 	);

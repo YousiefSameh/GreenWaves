@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Header from "../UI/Header"
 
 const Profile = () => {
@@ -17,9 +18,9 @@ const Profile = () => {
                                    <p className="text-black">مهندس برمجيات</p>
                               </div>
                          </div>
-                         <button className="bg-primary pl-20 pr-20 py-5 rounded-2xl mr-80 hover:bg-secondary transition-all">
+                         <Link to="/Sittings" className="bg-primary pl-20 pr-20 py-5 rounded-2xl mr-80 hover:bg-secondary transition-all">
                               <p className="text-xl font-bold text-white ">الاعدادات</p>
-                         </button>
+                         </Link>
                     </div>
                     {/* End Profile */}
                     {/* Start Posts */}
